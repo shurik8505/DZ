@@ -4,25 +4,6 @@
 
  function sravnenie($mas, $sam) 
  {
- 	if(count($mas) == count($sam)) {
- 		foreach ($mas as $value) {
- 			$temp1[] .= iconv_strlen($value);
- 		
- 		}
- 		foreach ($sam as $value) {
- 			$temp2[] .= iconv_strlen($value);
- 			
- 		}
- 		
- 		for($i = 0; $i < count($mas); $i++){
- 			$rez_temp[] = abs($temp1[$i] - $temp2[$i]);
-
- 			
- 			
- 		} 			
- 		
- 	}
- 	else echo "Массивы не равны :-(";
- 	return $rez_temp;
+	return max(array_map(function($a, $b) { return abs(strlen($a)-strlen($b)); }, $mas, $sam));		
  }
  print_r(sravnenie($mas1,$sam2));
