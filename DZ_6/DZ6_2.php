@@ -1,6 +1,6 @@
 <?php
- $mas1 = [frtg, bnjutrr, fghyyt, sddпg, ghygho];
- $sam2 = [nhhtffggy, mfgh, shgf, jjuyya, yhk];
+ $mas1 = ['frtg', 'bnjutrr', 'fghyyt', 'sddпg', 'ghygho'];
+ $sam2 = ['nhhtffggy', 'mfgh', 'shgf', 'jjuyya', 'yhk'];
 
  function sravnenie($mas, $sam) 
  {
