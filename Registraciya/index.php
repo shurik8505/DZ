@@ -5,13 +5,18 @@ require "db.php";
 <!DOCTYPE html>
 <html lang="ru">
 <meta charset="utf-8">
+<style>
+	body {background: url(Register.jpg);} 
+
+	
+</style>
 </html>
 
 
 
 <?php 
 if(isset($_SESSION['logged_user'])) : ?> 
-	Авторизован!<br>
+	Вы авторизованы!<br>
 		<hr>
 	<a href="/logout.php">Выйти</a>
 

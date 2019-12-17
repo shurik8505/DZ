@@ -48,9 +48,13 @@ if(isset($data['do_signup']))
 		{
 			//всё хорошо,регистрируем
 			$user = R::dispense('users');
+			$user->surname = $data['surname'];
+			$user->name = $data['name'];
+			$user->father_name = $data['father_name'];
 			$user->login = $data['login'];
 			$user->email = $data['email'];
 			$user->password = password_hash($data['password'],PASSWORD_DEFAULT);//шифрование пароля(хеширование)
+			
 			R::store($user);
 			echo '<div style="color: green;">Вы успешно зарегистрированы!</div><hr>';
 		}else
@@ -68,16 +72,16 @@ if(isset($data['do_signup']))
 
 	<p>
 		<p><strong>Фамилия</strong>:</p>
-		<input type="text" name="Фамилия" value="<?php echo @$data['surname'];?>">
+		<input type="text" name="surname" value="<?php echo @$data['surname'];?>">
     </p>
     <p>
 		<p><strong>Имя</strong>:</p>
-		<input type="text" name="Имя" value="<?php echo @$data['name'];?>">
+		<input type="text" name="name" value="<?php echo @$data['name'];?>">
     </p>
 
     <p>
 		<p><strong>Отчество</strong>:</p>
-		<input type="text" name="Отчество" value="<?php echo @$data['father_name'];?>">
+		<input type="text" name="father_name" value="<?php echo @$data['father_name'];?>">
     </p>
 
     <p>
