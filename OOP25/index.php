@@ -7,7 +7,7 @@ spl_autoload_register(function ($class_name) {
 
 $cooling = new Cooling('Daewoo', '20,40,15', 2000, '1500');
 $hot = new Heating('Samsung', '20,20,20', 1000, '10');
-$vlaga = new Moisturizing('Aquamen', '90,60,90', 5000, '0.5');
+$vlaga = new Moisturizing('LG', '25,35,20', 5000, '0.5');
 
 
 echo $cooling->manual() . $cooling->info_class();
