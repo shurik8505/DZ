@@ -1,0 +1,15 @@
+#!/bin/bash
+echo -n "Harry: "
+grep -o "Harry" Garik | wc -l | tr '\n' '('
+grep -n 'Harry' Garik | cut -d : -f1 | tr '\n' ','
+echo ")"
+
+echo -n "Lord: "
+grep -o "Lord" Garik | wc -l | tr '\n' '('
+grep -n 'Lord' Garik | cut -d : -f1 | tr '\n' ','
+echo ")"
+
+echo -n "Hogwarts: "
+grep -o "Hogwarts" Garik | wc -l | tr '\n' '('
+grep -n 'Hogwarts' Garik | cut -d : -f1 | tr '\n' ','
+echo ")"
