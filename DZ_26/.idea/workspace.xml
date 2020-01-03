@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a86aa39f-8122-41d9-9b04-af11eb30d489" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="ProjectId" id="1VM84T28z8IqOeBzPYl6mxzSI5a" />
+  <component name="ProjectViewState">
+    <option name="compactDirectories" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/test.loc" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a86aa39f-8122-41d9-9b04-af11eb30d489" name="Default Changelist" comment="" />
+      <created>1577127025843</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577127025843</updated>
+      <workItem from="1577127034235" duration="701000" />
+      <workItem from="1577132467687" duration="3372000" />
+      <workItem from="1577380000843" duration="693000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="656" y="27" width="700" height="741" key="#PHP" timestamp="1577051505424">
+      <screen x="53" y="27" width="1313" height="741" />
+    </state>
+    <state x="656" y="27" width="700" height="741" key="#PHP/53.27.1313.741@53.27.1313.741" timestamp="1577051505424" />
+    <state x="492" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1577383530979">
+      <screen x="53" y="27" width="1313" height="741" />
+    </state>
+    <state x="492" y="154" width="424" height="484" key="FileChooserDialogImpl/53.27.1313.741@53.27.1313.741" timestamp="1577383530979" />
+    <state x="264" y="181" key="run.anything.popup" timestamp="1577132544858">
+      <screen x="53" y="27" width="1313" height="741" />
+    </state>
+    <state x="264" y="181" key="run.anything.popup/53.27.1313.741@53.27.1313.741" timestamp="1577132544858" />
+  </component>
+</project>
