@@ -8,4 +8,4 @@ var kolSigVmes = 30 * sig_v_den;   //кол-во сиг-т в месяц
 
 var papados = priceSigarets * pachek_v_mes;   //стоимость яда в месяц
 
-console.log(papados)
+
