@@ -1,3 +1,5 @@
+// calc
+
 var priceSigarets = 40;   //цена за пачку
 var kol_v_pachke = 20;   //кол-во сигарет в пачке
 var sig_v_den = 10;   //сиг-т в день
@@ -11,3 +13,6 @@ var papados = priceSigarets * pachek_v_mes;   //стоимость яда в м�
 console.log(pachek_v_mes, kolSigVmes, papados)   //вывести интересующий результат
 
  alert('Вы тратите ' + papados + ' грн/мес')
+
+
+

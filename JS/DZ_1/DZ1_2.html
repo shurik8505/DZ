@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+.validate {
+    margin-top: 0;
+    color: red;
+}
+</style>
+</head>
+<body>
+<form>
+<input type="text" name="login" placeholder="Введите логин" class="login">
+
+
+    <input type="pass" name="pass" placeholder="Введите пароль" class="pass">
+
+
+    <input type="submit" value="Отправить" class="submit">
+    <p class="validate"></p>
+    </form>
+
+
+    <script>
+
+    let user = {
+    login: 'admin',
+    password: 'qwerty',
+};
+
+const btn = document.querySelector('.submit');
+const loginInput = document.querySelector('.login');
+const passInput = document.querySelector('.pass');
+const valid = document.querySelector('.validate');
+
+
+function handler (event) {
+    event.preventDefault()
+
+    if (user.password === passInput.value && user.login === loginInput.value) {
+        valid.innerHTML = 'Добрый день администратор!';
+        valid.style.color = 'green'
+    } else {
+        valid.innerHTML = 'Пароль или логин введены не верно';
+        valid.style.color = 'red'
+    }
+}
+
+btn.addEventListener('click', handler)
+
+
+</script>
+</body>
+</html>
